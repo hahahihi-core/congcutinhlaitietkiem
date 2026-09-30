@@ -210,21 +210,3 @@ if st.button("🧮 TÍNH TIỀN LÃI", use_container_width=True):
             "và không cộng dồn vào vốn."
         )
 
-
-### Lưu ý về cách tính
-
-App đang quy ước **lãi suất người dùng nhập là lãi suất %/năm**.
-
-Ví dụ nhập:
-
-* Tiền gửi: `100.000.000 VNĐ`
-* Kỳ hạn: `12 tháng`
-* Lãi suất: `6%/năm`
-* Lãi đơn
-* Lãnh lãi hàng tháng
-
-→ Lãi định kỳ khoảng **500.000 VNĐ/tháng**, tổng lãi **6.000.000 VNĐ**, tổng nhận **106.000.000 VNĐ**.
-
-Với **lãi kép**, tiền lãi mỗi kỳ được nhập vào vốn để tính tiếp kỳ sau, nên tổng tiền cuối kỳ sẽ cao hơn lãi đơn trong cùng điều kiện.
-
-**Lưu ý nhỏ:** trong thực tế ngân hàng có thể có quy định riêng về cách quy đổi lãi suất, ngày tính lãi và việc trả lãi định kỳ. Code trên phù hợp để làm **app bài tập/demo tính toán** theo công thức tài chính cơ bản.
