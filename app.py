@@ -1,4 +1,4 @@
-```python
+
 import streamlit as st
 
 # ==============================
@@ -209,7 +209,7 @@ if st.button("🧮 TÍNH TIỀN LÃI", use_container_width=True):
             "ℹ️ Với lãi đơn, tiền lãi được tính trên số tiền gốc ban đầu "
             "và không cộng dồn vào vốn."
         )
-```
+
 
 ### Lưu ý về cách tính
 
